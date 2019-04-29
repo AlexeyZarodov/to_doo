@@ -1,0 +1,137 @@
+
+#add {
+    background:#2E8B57;
+    color:white;
+    position:relative;
+    right:30px
+}
+
+#red{
+  width: 600px; 
+  height: 50px;   
+  background:red;
+  position:relative;
+  right:0px; 
+  color:white;
+  text-align:justify;
+  font-weight:bold;
+  font-size:18px;
+  
+
+}
+
+#blue{
+  width: 600px; 
+  height: 50px;   
+  background:blue;
+  position:relative;
+  right:0px; 
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+}
+#green{
+  width: 600px; 
+  height: 50px;   
+  background:green;
+  position:relative;
+  right:0px; 
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+}
+
+#orange{
+  width: 600px; 
+  height: 50px;   
+  background:orange;
+  position:relative;
+  right:0px; 
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+}
+
+#aqua{
+  width: 600px; 
+  height: 50px;   
+  background:aqua;
+  position:relative;
+  right:0px; 
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+}
+
+#violet{
+  width: 600px; 
+  height: 50px;   
+  background:violet;
+  position:relative;
+  right:0px;
+  color:white; 
+  font-weight:bold;
+  font-size:18px;
+}
+
+#addtolist{
+    width: 600px; 
+    height: 30px;
+    position:relative;
+    right:-30px; 
+}
+
+#box{
+    width:24px;
+    height:24px;
+    position:relative;
+    left:0px; 
+    top:10px;
+}
+
+.custom-radios [type='radio'] {
+  position: absolute;
+  right: 100vw;
+}
+.custom-radios [type='radio'] + label {
+  display: inline-block;
+  position: relative;
+  margin: 0 4px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  left: 400px;
+  top:-25px;
+}
+.custom-radios [type='radio'] + label:nth-of-type(1) {
+  background:red;
+}
+.custom-radios [type='radio'] + label:nth-of-type(2) {
+  background: blue;
+}
+.custom-radios [type='radio'] + label:nth-of-type(3) {
+  background: green;
+}
+.custom-radios [type='radio'] + label:nth-of-type(4) {
+  background: orange;
+}
+.custom-radios [type='radio'] + label:nth-of-type(5) {
+  background: aqua;
+}
+.custom-radios [type='radio'] + label:nth-of-type(6) {
+  background: violet;
+}
+.custom-radios [type='radio'] + label:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2017/check-icn.svg") 50%/50% no-repeat;
+  content: '';
+}
+.custom-radios [type='radio']:checked + label:before {
+  opacity: 1;
+} 
+
